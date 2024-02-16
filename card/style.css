@@ -1,0 +1,134 @@
+body{
+    overflow:hidden; 
+    -webkit-text-stroke:1px lightblue;
+    font-weight: 100%;
+    background-image: url("https://c.tenor.com/75re0bsSUk0AAAAC/tenor.gif");
+    opacity: 80%;
+}
+
+div{
+    display: inline-block;
+    float: left;
+    
+}
+
+.Name{
+    position:absolute;
+    color:white;   
+    margin-left:15px;
+    margin-top: -30px;    
+    opacity: 80%;
+    font-size: 20px;
+}
+
+.background1{
+    position:absolute;
+      width:90px;     
+       box-shadow:5px 9px 20px black;
+      border:2px solid gray;
+      border-radius:20px;
+       height:140px;
+}
+
+.background2{
+    position:absolute;
+      width:90px;     
+      box-shadow:5px 9px 20px black;      
+      border-radius:20px;
+      border:2px solid gray;
+       height:140px;
+}
+
+
+.container div{
+      position: absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+    transition: all 1s ease;
+    
+}
+
+.container .front{
+    
+    transform: perspective(500px) rotateY(0deg);
+}
+
+.container:hover .front{
+   
+    transform: perspective(500px) rotateY(180deg);
+}
+
+
+.container .back{
+    
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.container:hover .back{
+    
+    transform: perspective(500px) rotateY(360deg);
+}
+
+
+
+.container{
+   
+ 
+    margin-top:150px; 
+    margin-left:25px;
+    overflow:hidden;
+    
+}
+
+
+
+.logo{
+    width:90px;
+    height:40px;
+    margin-top:60px;
+    filter: drop-shadow(7px 7px 20px black);
+    margin-left:5px;
+    opacity:70%;
+    
+}
+
+.skin{
+    width:60px;
+    height:90px;
+    margin-top:40px;
+   
+    margin-left:40%;
+    opacity:80%;
+    
+}
+
+.container2{
+    margin-top:10px; 
+    margin-left:20px;
+    overflow:hidden;
+   
+}
+
+.container2 .front{
+    
+    transform: perspective(500px) rotateY(0deg);
+}
+
+.container2:hover .front{
+   
+    transform: perspective(500px) rotateY(180deg);
+}
+
+
+.container2 .back{
+    
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.container2:hover .back{
+    
+    transform: perspective(500px) rotateY(360deg);
+}
+
+
+
